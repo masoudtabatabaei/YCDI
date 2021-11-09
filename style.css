@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
     background-color: #000000;
 }
@@ -53,4 +54,16 @@
                 0 0 80px #ffffff ,
                 0 0 120px #ffffff,
                 0 0 160px #ffffff;
+}
+
+.help {
+    margin-top: 7rem;
+    color: #444444;
+    font-size: 1rem;
+}
+
+.help svg {
+    fill: #444444;
+    width: 20px;
+    vertical-align: middle;
 }
